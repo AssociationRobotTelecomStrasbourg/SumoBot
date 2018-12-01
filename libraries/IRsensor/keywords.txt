@@ -1,0 +1,4 @@
+IRsensor KEYWORD1
+rawDistance KEYWORD2
+rawData KEYWORD2
+distanceMoy KEYWORD2

@@ -1,11 +1,11 @@
 #include <PID_v1.h>
 
-#include <Boards.h>
-#include <FirmataDefines.h>
-#include <FirmataMarshaller.h>
-#include <Firmata.h>
-#include <FirmataParser.h>
-#include <FirmataConstants.h>
+//#include <Boards.h>
+//#include <FirmataDefines.h>
+//#include <FirmataMarshaller.h>
+//#include <Firmata.h>
+//#include <FirmataParser.h>
+//#include <FirmataConstants.h>
 
 #include <ZumoShield.h>
 
@@ -17,7 +17,7 @@ double position,commande=0,consigne=0;
 ZumoMotors motors;
 Pushbutton button(ZUMO_BUTTON);
 
-PID myPID(&position, &commande, &consigne,7,0,0.2, DIRECT);
+PID myPID(&position, &commande, &consigne,20,0,0.2, DIRECT);
 
 
 
